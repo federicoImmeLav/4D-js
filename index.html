@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="rosso"></div>
+    <!-- inserisco il comando per attivare la funz -->
+    <button onclick="cambia()">Cambia colore</button>
+
+    <section class="calcolatrice">
+        <div class="numeri">
+            <input type="number" id="n1" placeholder="numero">
+            <input type="number" id="n2" placeholder="numero">
+        </div>
+        <div>
+            <button onclick="somma()">somma</button>
+            <button onclick="diff()">differenza</button>
+            <button onclick="prodotto()">prodotto</button>
+            <button onclick="divisione()">divisione</button>
+        </div>
+        <p id="risultato"></p>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

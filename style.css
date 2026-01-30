@@ -1,0 +1,39 @@
+button {
+    border: none; /* bordo */
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 50px; /* bordo arrotondato */
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+#rosso {
+    background-color: red;
+    height: 100px; 
+    width: 100px;
+    margin-bottom: 2vh;
+}
+
+.calcolatrice {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    flex-direction: column; /* rende le cose nel contenitore in colonna */
+}
+
+.numeri {
+    margin-bottom: 1vh;
+}
+
+#risultato {
+    text-align: center;
+    height: 5vh;
+}
+
+
